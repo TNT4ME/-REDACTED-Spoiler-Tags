@@ -1,7 +1,20 @@
 # \[ REDACTED \] Spoiler Tags
 Replaces Discord's spoiler tags with [ REDACTED ]
 
-Copy [REDACTED.css](https://github.com/TNT4ME/-REDACTED-Spoiler-Tags/blob/main/REDACTED.css) and paste into the QuickCSS Editor
+Copy the code below and paste it into the QuickCSS Editor
+
+```css
+@import url("https://github.com/TNT4ME/REDACTED-Spoiler-Tags/raw/refs/heads/main/REDACTED.css");
+
+:root {
+    --text-col: #fff;
+    --background: #000;
+    --font: Impact, monospace;
+    --min-width: 120px;
+    --text: "[ REDACTED ]";
+    --weight: 600;
+}
+```
 
 <img width="1826" height="828" alt="image" src="https://github.com/user-attachments/assets/a900eca7-e3ab-422e-8a82-d8af540bb33a" />
 
