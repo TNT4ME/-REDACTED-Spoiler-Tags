@@ -1,35 +1,44 @@
+:root {
+    --text-col: #fff;
+    --background: #000;
+    --font: Impact, monospace;
+    --min-width: 120px;
+    --text: "[ REDACTED ]";
+    --weight: 600;
+}
+
 /*txt*/
 .spoilerContent__299eb.hidden__299eb code {
     border: none;
     background: none;
 }
 .spoilerContent__299eb.hidden__299eb {
-    border: #fff 2px solid;
+    border: var(--text-col) 2px solid;
     border-top: none;
     border-bottom: none;
 
     margin-left: 5px;
     margin-right: 5px;
 
-    background: #000;
+    background: var(--background);
     border-radius: 0px;
 
     display: inline-flex;
     overflow: hidden;
     position: relative;
 
-    min-width: 120px;
+    min-width: var(--min-width);
 }
 
 .spoilerMarkdownContent__299eb.hidden__299eb::before {
-    content: "[ REDACTED ]";
+    content: var(--text);
 
     inset: 0;
     position: absolute;
 
-    color: #fff;
-    font-family: Impact, monospace;
-    font-weight: 600;
+    color: var(--text-col);
+    font-family: var(--font);
+    font-weight: var(--weight);
 
     align-items: center;
     display: inline-flex;
@@ -47,20 +56,20 @@
 }
 
 .mosaicItemMediaMosaic__6c706 > .spoilerContent__299eb.hidden__299eb {
-    border: #fff solid;
+    border: var(--text-col) solid;
     border-radius: 0px;
 }
 .spoilerContainer__299eb.hidden__299eb:not(:focus)::before {
-    content: "[ REDACTED ]";
+    content: var(--text);
 
     inset: 0;
     z-index: 10;
     position: absolute;
 
-    color: #fff;
-    background: #000;
-    font-family: Impact, monospace;
-    font-weight: 600;
+    color: var(--text-col);
+    background: var(--background);
+    font-family: var(--font);
+    font-weight: var(--weight);
 
     align-items: center;
     display: inline-flex;
