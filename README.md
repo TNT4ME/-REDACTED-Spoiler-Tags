@@ -7,12 +7,12 @@ Copy the code below and paste it into the QuickCSS Editor
 @import url("https://github.com/TNT4ME/REDACTED-Spoiler-Tags/raw/refs/heads/main/REDACTED.css");
 
 :root {
-    --text-col: #fff;
-    --background: #000;
-    --font: Impact, monospace;
-    --min-width: 120px;
-    --text: "[ REDACTED ]";
-    --weight: 600;
+    --text-col: #fff;           /*Color of the text on the spoiler*/
+    --background: #000;         /*Main color of the spoiler*/
+    --font: Impact, monospace;  /*Font for the text*/
+    --min-width: 120px;         /*Minimum width of the spoiler. Set to 0 to make the spoilers not exceed their original size*/
+    --text: "[ REDACTED ]";     /*Text on the spoiler*/
+    --weight: 600;              /*How bold the text is*/
 }
 ```
 
